@@ -8,6 +8,7 @@ import Menu from './components/menu/menu.jsx';
 import Order from './components/order/order.jsx';
 import Promo from './components/promo/promo.jsx';
 import Ubication from './components/ubication/ubication.jsx';
+import Form from './components/menu/form.jsx';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -48,6 +49,7 @@ const App = () => {
             <Route path="/order" element={<Order />} />
             <Route path="/ubication" element={<Ubication />} />
             <Route path="/aboutUs" element={<AboutUs />} />
+            <Route path="/form" element={<Form />} />
           </Routes>
         </div>
         <Footer />

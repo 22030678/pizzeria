@@ -112,3 +112,23 @@
   text-align: center;
   background-color: white;
  }
+
+ /**/
+.form-control {
+  width: 300px;
+}
+
+.form-disposition {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  gap: 20px;
+}
+
+.alert-floating {
+  position: fixed;
+  top: 200px;
+  right: 350px;
+  z-index: 9999;
+  width: 600px;
+}

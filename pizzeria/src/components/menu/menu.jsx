@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Button, Container, Row, Col, ListGroup, Carousel } from 'react-bootstrap';
 
+import { Link } from 'react-router-dom';
+
 const Catalogo = () => {
   const [productos, setProductos] = useState([]);
   const [carrito, setCarrito] = useState([]);
@@ -195,6 +197,7 @@ const Catalogo = () => {
           <hr />
           <p className="text-right">Total: <span>{divisa}{calcularTotal()}</span></p>
           <Button variant="danger" onClick={vaciarCarrito}>Vaciar</Button>
+          <Link to="/form"><Button variant="danger">Comprar</Button></Link>
         </Col>
       </Row>
     </Container>
