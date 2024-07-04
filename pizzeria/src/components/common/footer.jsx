@@ -60,9 +60,9 @@ const Footer = ({ darkMode }) => {
     <footer style={footerStyle}>
       <div style={containerStyle}>
         <div style={columnStyle}>
-          <h5 style={headingStyle}>UTMA store</h5>
+          <h5 style={headingStyle}>Camirena Pizzeria</h5>
           <p>
-            Adquiere los productos oficiales de la Universidad Tecnológica Metropolitana.
+            Disfrute de nuestras deliciosas pizzas elaboradas con los ingredientes más frescos.
           </p>
         </div>
         <div style={{ ...columnStyle, textAlign: 'center'}}>
@@ -82,7 +82,7 @@ const Footer = ({ darkMode }) => {
       </div>
       <div style={copyrightStyle}>
         © 2024 Copyright:
-        <a href="https://www.utmastore.com/" style={{ ...linkStyle, textDecoration: 'underline', fontSize: '1.1rem' }}>utmastore.com</a>
+        <a href="https://www.camirenapizzeria.com/" style={{ ...linkStyle, textDecoration: 'underline', fontSize: '1.1rem' }}>camirenapizzeria.com</a>
       </div>
     </footer>
   );

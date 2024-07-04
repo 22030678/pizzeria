@@ -22,8 +22,8 @@ const Header = () => {
     <header className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <Link className="navbar-brand d-flex align-items-center no-hover" to="/">
-          <img src={process.env.PUBLIC_URL + '/images/utmaico.png'} alt="UTMASTORE" style={{ width: '40px', marginRight: '10px' }} />
-          UTMA store
+          <img src={process.env.PUBLIC_URL + '/images/happiness.png'} alt="Camirena Pizzeria Logo" style={{ width: '40px', marginRight: '10px' }} />
+          Camirena Pizzeria
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
