@@ -17,15 +17,15 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   const appStyles = {
-    backgroundColor: darkMode ? '#A0BDFF' : '#FFE9E0',
-    color: darkMode ? '#ffffff' : '#000000',
+    backgroundColor: darkMode ? '#0061A4' : '#DADADA',
+    color: darkMode ? '#DADADA' : '#0061A4',
     minHeight: '100vh',
     transition: 'all 0.3s ease',
   };
 
   const buttonStyles = {
-    backgroundColor: darkMode ? '#FF956B' : '#5A8DFF',
-    borderColor: darkMode ? '#FF4F08' : '#004AEF',
+    backgroundColor: darkMode ? '##DADADA' : '##0097FF',
+    borderColor: darkMode ? '#0097FF' : '#DADADA',
     color: darkMode ? '#000000' : '#ffffff',
   };
 

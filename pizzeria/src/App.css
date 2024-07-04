@@ -53,7 +53,7 @@
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #ff6347;
+  color: #004eb4;
 }
 
 .nav-link {
@@ -63,8 +63,8 @@
 }
 
 .nav-link:hover {
-  color: #ff6347;
-  background-color: rgba(255, 99, 71, 0.1);
+  color: white;
+  background-color: rgba(0, 68, 255, 0.589);
   border-radius: 5px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .dark-mode .navbar-brand {
-  color: #ff6347;
+  color: #004eb4;
 }
 
 .dark-mode .nav-link {
@@ -82,20 +82,20 @@
 }
 
 .dark-mode .nav-link:hover {
-  color: #ff6347;
-  background-color: rgba(255, 99, 71, 0.1);
+  color: #013cff;
+  background-color: rgba(0, 153, 255, 0.589);
   border-radius: 5px;
 }
 
 
 .login-btn {
-  background-color: #ff6347; 
+  background-color: #004eb4; 
   color: white; 
   border: none;
 }
 
 .login-btn:hover {
-  background-color: #FFE9E0; 
+  background-color: #61b3ff; 
 }
 
 .login-form {
